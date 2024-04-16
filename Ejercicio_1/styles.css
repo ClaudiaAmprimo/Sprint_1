@@ -47,7 +47,9 @@
   }
     .banner{
       background-color: #e9c46a;
-      height: 80px
+      height: 80px;
+      font-size: 30px;
+      font-weight: bold;
     }
 
 .section{
@@ -83,21 +85,27 @@
     background-color: #e9d8a6;
   }
 
-  @media only screen and (max-width: 991.98px) {
-    .section{
-      flex-direction: column;
-    }
-    .menu{
-      flex-direction: column;
-      height: auto;
-    }
-    .logo{
-      width: 97%;
-    }
-    .nav{
-      width: 97%;
-    }
-    .social{
-      width: 97%;
-    }
+@media only screen and (max-width: 991.98px) {
+  .section{
+    flex-direction: column;
   }
+  .menu{
+    flex-direction: column;
+    height: auto;
+  }
+  .logo{
+    width: 97%;
+  }
+  .nav{
+    width: 97%;
+  }
+  .social{
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .articulos{
+    flex-direction: column;
+  }
+}
