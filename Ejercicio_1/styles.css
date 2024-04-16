@@ -29,6 +29,18 @@
       flex: 1 1 auto;
       height: 45px;
     }
+      .logo:hover{
+        animation: expand 1s forwards;
+        background-color: magenta;
+      }
+      @keyframes expand {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.2);
+        }
+      }
     .nav{
       background-color: #e76f51;
       flex: 5 1 auto;
